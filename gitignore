@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Azure Functions local settings (contains local connection strings)
+local.settings.json
+
+# VS Code
+.vscode/
+
+# Azurite local emulator files
+__azurite_db*__.json
+__blobstorage__/
+__queuestorage__/
